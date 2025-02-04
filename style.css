@@ -1,0 +1,119 @@
+/* Use a better box model (opinionated). */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+/* Correct the line height in all browsers and prevent font size adjustments after orientation changes in iOS. */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Remove the margin in all browsers. */
+body {
+    margin: 0;
+}
+
+/* A better looking default horizontal rule */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/* Add the correct font weight in Chrome and Safari. */
+b,
+strong {
+    font-weight: bolder;
+}
+
+/* Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers. */
+legend {
+    padding: 0;
+}
+
+/* Add the correct display in Chrome and Safari. */
+summary {
+    display: list-item;
+}
+
+/* Remove default list styles for ordered and unordered lists */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Print Styles */
+@media print {
+
+    *,
+    *::before,
+    *::after {
+        background: #fff !important;
+        color: #000 !important;
+        /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]::after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
