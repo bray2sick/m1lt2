@@ -11,18 +11,19 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-/* Remove the margin in all browsers. */
+/* Remove the margin/padding in all browsers and updated font family */
 body {
     margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
 }
 
 /* A better looking default horizontal rule */
-
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #CCCCCC;
     margin: 1em 0;
     padding: 0;
 }
@@ -65,8 +66,8 @@ ul {
     *,
     *::before,
     *::after {
-        background: #fff !important;
-        color: #000 !important;
+        background: #FFFFFF !important;
+        color: #000000 !important;
         /* Black prints faster */
         box-shadow: none !important;
         text-shadow: none !important;
@@ -96,7 +97,7 @@ ul {
 
     pre,
     blockquote {
-        border: 1px solid #999;
+        border: 1px solid #999999;
         page-break-inside: avoid;
     }
 
@@ -116,4 +117,26 @@ ul {
     h3 {
         page-break-after: avoid;
     }
+}
+
+header {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+}
+
+.timeline {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
 }
