@@ -1,0 +1,4 @@
+Contact: mailto:braydonpettit24@outlook.com
+Expires: 2025-02-10T10:00:00.000Z
+Preferred-Languages: en
+Canonical: http://127.0.0.1:5500/.well-known/security.txt
