@@ -2,13 +2,17 @@
 /* humanstxt.org */
 
 /* TEAM */
-Web Developer: Braydon Pettit
-Designer: Braydon Pettit
+  Development: Braydon Pettit
+  Site: https://bray2sick.github.io/
+  Location: Hobart, Australia
 
 /* THANKS */
-TasTAFE
+  TasTAFE
+  You, for reading this.
 
 /* SITE */
-Last update: 2025/02/5
-Standards: HTML5, CSS3, W3C
-Software: VSCodium, Google Chrome and Developer Tools, Firefox Developer Edition
+  Last update: 2025/02/6
+  Standards: HTML5, CSS3, W3C
+  Components: Web Manifest, Tailwind CSS Colors, Geist (Google Fonts)
+  Software: Google Chrome and Developer Tools, Firefox Developer Edition,
+  IDE: VSCodium
